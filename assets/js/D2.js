@@ -100,21 +100,21 @@ let Numero1 = 1;
 let Numero2 = 2;
 let Numero3 = 3;
 
-if(Numero1 < Numero2){
-  if(Numero2 < Numero3){
+if(Numero1 <= Numero2){
+  if(Numero2 <= Numero3){
     console.log(Numero1, Numero2, Numero3);
   }else if(Numero2 > Numero3){
-    if(Numero1 < Numero3){
+    if(Numero1 <= Numero3){
       console.log(Numero1, Numero3, Numero2);
     }else{
       console.log(Numero3, Numero1, Numero2);
     };
   };
-}else if(Numero1 > Numero2){
-  if(Numero1 < Numero3){
+}else if(Numero1 >= Numero2){
+  if(Numero1 <= Numero3){
     console.log(Numero2, Numero1, Numero3);
-  }else if(Numero1 > Numero3){
-    if(Numero2 > Numero3){
+  }else if(Numero1 >= Numero3){
+    if(Numero2 >= Numero3){
       console.log(Numero3, Numero2, Numero1);
     }else{
       console.log(Numero2, Numero3, Numero1);
