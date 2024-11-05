@@ -24,7 +24,7 @@ if(num1>num2){
 */
 const num = 4;
 
-if(num!=5){
+if(num!==5){
   console.log("not equal");
 };
 
@@ -35,7 +35,7 @@ if(num!=5){
 let numero = 10;
 let resto = numero%5;
 
-if(resto==0){
+if(resto===0){
   console.log("divisibile per 5");
 }else{
   console.log("non è divisibile per 5");
@@ -48,15 +48,15 @@ if(resto==0){
 let numero1 = 3;
 let numero2 = 5;
 
-if(numero1==0 && numero2==8 || numero1==8 && numero2==0){
+if(numero1===0 && numero2===8 || numero1===8 && numero2===0){
   console.log("la loro somma è uno dei due numeri è ugaule a 8");
-}else if(numero1==0 && numero2==8){
+}else if(numero1===0 && numero2===8){
   console.log("entrambi i numeri sono uguali a 8");
-}else if(numero1-numero2==8){
+}else if(numero1-numero2===8){
   console.log("la differenza tra i due numeri è uguale a 8");
-}else if(numero1+numero2==8){
+}else if(numero1+numero2===8){
   console.log("la somma dei due numeri è uguale a 8");
-}else if(numero1==8 || numero2==8){
+}else if(numero1===8 || numero2===8){
   console.log("uno dei due numeri è uguale a 8");
 }else{
   console.log("la somma due numeri o uno dei due numeri non è uguale a 8");
@@ -140,7 +140,7 @@ if(typeof variabile=="number"){
 
 let numeroPariDispari = 7;
 
-if(numeroPariDispari%2==0){
+if(numeroPariDispari%2===0){
   console.log("Questo è un numero pari");
 }else{
   console.log("Questo è un numero dispari");
